@@ -1,0 +1,77 @@
+.cardsGrid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+
+gap:30px;
+
+margin-top:40px;
+
+}
+
+.cardItem{
+
+background:white;
+
+padding:20px;
+
+border-radius:18px;
+
+text-align:center;
+
+box-shadow:0 8px 30px rgba(0,0,0,.08);
+
+}
+
+.cardItem img{
+
+width:100%;
+
+aspect-ratio:2/3;
+
+object-fit:cover;
+
+border-radius:12px;
+
+background:#ececec;
+
+}
+
+.cardItem h3{
+
+margin-top:15px;
+
+font-size:18px;
+
+}
+
+.cardItem strong{
+
+display:block;
+
+font-size:22px;
+
+margin:15px 0;
+
+color:#0A2540;
+
+}
+
+.cardItem button{
+
+width:100%;
+
+padding:12px;
+
+background:#0A2540;
+
+color:white;
+
+border:none;
+
+border-radius:10px;
+
+cursor:pointer;
+
+}
